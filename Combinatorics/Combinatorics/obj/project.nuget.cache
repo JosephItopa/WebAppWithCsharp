@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q0vqTZxB73tB4U/x23xRaMQ8uwOE36a+3Dy/TtgfLjVYtR3/OgndRLLLoNscj9SURZiIjmYJ3nzAHfFzj064AA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\Summer2022\\cloud_computing\\se-cloud-2021-2022\\Source\\MyWork\\Excercise3_AppServices\\Combinatorics\\Combinatorics\\Combinatorics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
+  ],
+  "logs": []
+}

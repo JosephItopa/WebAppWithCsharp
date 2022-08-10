@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-3">Compute permutation or combination</h1>
+</div>
+
+<div class="text-center align-middle">  
+
+    <div class="form-group"> <hr />
+       <form method="POST" action="/home/Permutation">
+            
+           <div class="col-sm-2"> 
+               <p>n-value</p> 
+                <input type="number" name="n" value="@ViewBag.n" />  
+            </div>
+            
+             <div class="col-sm-2">
+                 <p>r-value</p>
+                <input type="number" name="r" value="@ViewBag.r" />  
+            </div>
+
+            <div class="col-sm-2">
+                <p>Permutation:</p>
+                <input type="number" readonly="readonly" value="@ViewBag.Permutation" /><hr />
+            </div>
+            <div class="col-sm-2">
+            <input type="submit" value="Permutation" />
+            </div>
+
+       </form> <hr />
+
+       <form method="POST" action="/home/Combination">
+            <div class="col-sm-2">
+                 <p>n-value</p>
+                <input type="number" name="n" value="@ViewBag.n" />  
+            </div>
+            <span>  </span>
+            <div class="col-sm-2">
+                 <p>r-value</p>
+                <input type="number" name="r" value="@ViewBag.r" />  
+            </div>
+
+            <div class="col-sm-2">
+                
+                <p>Combination:</p>
+                <input type="number" readonly="readonly" value="@ViewBag.Combination" /><hr />
+            </div>
+            <div class="col-sm-2">
+            <input type="submit" value="Combination" />
+            </div>
+
+       </form>
+
+    </div>
+</div>
